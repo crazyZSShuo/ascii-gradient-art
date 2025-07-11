@@ -26,16 +26,16 @@ ASCII Gradient Art is a powerful command-line tool that generates beautiful ASCI
 - Python 3.6 or higher
 - pip package manager
 
+#### Install from PyPI (Recommended)
+```bash
+pip install ascii-gradient-art
+```
+
 #### Install from source
 ```bash
 git clone https://github.com/crazyZSShuo/ascii-gradient-art.git
 cd ascii-gradient-art
 pip install -e .
-```
-
-#### Install dependencies
-```bash
-pip install pyfiglet
 ```
 
 ### 📖 Usage
@@ -128,7 +128,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### 👤 Author
 
-- **Maxzs** - [zsshuo1024@gmail.com](mailto:zsshuo1024@gmail.com)
+- **Maxzs**
 
 ---
 
@@ -154,16 +154,16 @@ ASCII 渐变艺术字是一个强大的命令行工具，可以生成带有自�
 - Python 3.6 或更高版本
 - pip 包管理器
 
+#### 从PyPI安装（推荐）
+```bash
+pip install ascii-gradient-art
+```
+
 #### 从源码安装
 ```bash
 git clone https://github.com/crazyZSShuo/ascii-gradient-art.git
 cd ascii-gradient-art
 pip install -e .
-```
-
-#### 安装依赖
-```bash
-pip install pyfiglet
 ```
 
 ### 📖 使用方法
@@ -256,7 +256,7 @@ ascii_gradient_art/
 
 ### 👤 作者
 
-- **Maxzs** - [zsshuo1024@gmail.com](mailto:zsshuo1024@gmail.com)
+- **Maxzs**
 
 ---
 

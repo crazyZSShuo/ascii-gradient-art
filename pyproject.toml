@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ascii-gradient-art"
+version = "0.1.5"
+description = "A command-line tool to generate colorful ASCII art with gradients and animations."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Maxzs"}
+]
+maintainers = [
+    {name = "Maxzs"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Artistic Software",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "pyfiglet",
+]
+keywords = ["ascii", "art", "gradient", "color", "animation", "terminal", "cli"]
+
+[project.urls]
+Homepage = "https://github.com/crazyZSShuo/ascii-gradient-art"
+Repository = "https://github.com/crazyZSShuo/ascii-gradient-art"
+"Source Code" = "https://github.com/crazyZSShuo/ascii-gradient-art"
+"Bug Tracker" = "https://github.com/crazyZSShuo/ascii-gradient-art/issues"
+"Documentation" = "https://github.com/crazyZSShuo/ascii-gradient-art#readme"
+"Download" = "https://pypi.org/project/ascii-gradient-art/"
+
+[project.scripts]
+ascii-gradient-art = "ascii_gradient_art.ascii_gradient_art:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ascii_gradient_art*"]
+exclude = ["tests*"]

@@ -142,3 +142,19 @@ Thumbs.db
 # Project specific
 output.txt
 *.ansi
+
+# Visual Studio files
+.vs/
+*.wsuo
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+
+# PyPI upload artifacts
+twine.log
+
+# Test output files
+test_output/
+examples_output/
