@@ -126,10 +126,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### 👤 Author
-
-- **Maxzs**
-
 ---
 
 ## 中文
@@ -254,9 +250,6 @@ ascii_gradient_art/
 
 本项目采用 MIT 许可证 - 详情请参见 LICENSE 文件。
 
-### 👤 作者
-
-- **Maxzs**
 
 ---
 
@@ -288,12 +281,3 @@ ascii-gradient-art --text "NEON" --color-theme neon --gradient-direction diagona
 import pyfiglet
 print(pyfiglet.FigletFont.getFonts())
 ```
-
-### 🌟 未来计划
-
-- [ ] 添加更多内置色彩主题
-- [ ] 支持自定义色彩主题配置文件
-- [ ] 添加更多动画效果
-- [ ] 支持图像到 ASCII 转换
-- [ ] 添加 GUI 界面
-- [ ] 支持更多输出格式（HTML、SVG 等）
